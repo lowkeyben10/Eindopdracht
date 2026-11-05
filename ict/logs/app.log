@@ -1,0 +1,380 @@
+2026-11-05 00:47:47 INFO Application starting
+2026-11-05 00:47:47 INFO Application started on port 5000
+2026-11-05 00:49:01 INFO User admin logged in from 172.18.0.1
+2026-11-05 09:46:36 INFO User admin logged in from 172.18.0.1
+2026-11-05 09:47:00 INFO Application stopped (signal SIGTERM)
+2026-11-05 09:47:10 INFO Application starting
+2026-11-05 09:47:10 INFO Application started on port 5000
+2026-11-05 09:54:22 WARN 404 Not Found: GET /favicon.ico from 172.18.0.1
+2026-11-05 10:06:36 WARN 404 Not Found: GET /favicon.ico from 172.18.0.1
+2026-11-05 10:07:32 WARN 404 Not Found: GET /favicon.ico from 172.18.0.1
+2026-11-05 10:09:47 INFO User admin logged in from 172.18.0.1
+2026-11-05 10:18:21 ERROR Test exception generated (POST /test/error)
+2026-11-05 10:22:13 INFO User admin logged out
+2026-11-05 10:22:38 WARN Registration failed for beeb: je moet akkoord gaan met de voorwaarden.
+2026-11-05 10:23:03 INFO New user registered: beeb
+2026-11-05 10:23:11 INFO User beeb logged in from 172.18.0.1
+2026-11-05 10:23:38 INFO Load test started by user beeb: generating 1000 sensor records
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 45.6 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 47.7 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 49.5 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 49.6 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 48.2 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 45.2 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 48.8 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 47.9 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 48.4 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 48.8 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 48.9 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 45.8 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 45.4 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 46.8 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 49.9 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 49.5 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 49.0 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 47.8 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 46.9 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 45.3 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 47.4 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 46.2 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 49.3 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 49.2 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 47.7 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 45.1 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 49.2 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 48.2 C
+2026-11-05 10:23:38 WARN High temperature at station Eemshaven: 49.7 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 46.3 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 49.7 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 47.0 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 48.5 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 46.3 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 47.7 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 47.1 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 48.0 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 47.4 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 47.2 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 46.3 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 45.8 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 48.1 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 49.5 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 47.3 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 45.7 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 47.5 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 48.0 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 45.5 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 48.3 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 49.8 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 46.9 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 46.6 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 48.6 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 49.1 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 49.1 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 48.6 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 46.9 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 48.4 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 48.7 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 45.4 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 47.0 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 45.8 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 47.6 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 45.6 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 47.7 C
+2026-11-05 10:23:39 WARN High temperature at station Eemshaven: 47.4 C
+2026-11-05 10:23:39 INFO Load test finished: 1000 sensor records generated in 1.01 seconds
+2026-11-05 10:42:28 INFO Application stopped (signal SIGTERM)
+2026-11-05 10:42:31 INFO Application starting
+2026-11-05 10:42:31 INFO Application started on port 5000
+2026-11-05 10:50:51 INFO Load test started by user beeb: generating 1000 sensor records
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 49.6 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 49.3 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 49.8 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 48.9 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 47.9 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 48.9 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 45.1 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 47.7 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 45.2 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 48.0 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 45.7 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 45.4 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 47.8 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 46.5 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 48.5 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 46.7 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 47.3 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 48.3 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 48.5 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 45.7 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 45.8 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 45.3 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 47.4 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 46.8 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 46.3 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 49.7 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 46.4 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 47.8 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 47.1 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 45.4 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 46.9 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 47.7 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 48.1 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 48.1 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 48.9 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 46.8 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 47.5 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 45.5 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 46.1 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 47.2 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 48.9 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 46.1 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 49.0 C
+2026-11-05 10:50:51 WARN High temperature at station Eemshaven: 46.8 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 49.1 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 46.7 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 47.3 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 49.9 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 48.2 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 47.1 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 46.0 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 47.0 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 49.2 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 47.3 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 48.9 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 50.0 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 46.4 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 49.3 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 49.2 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 45.6 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 49.3 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 49.6 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 47.6 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 48.3 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 47.2 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 47.8 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 48.9 C
+2026-11-05 10:50:52 WARN High temperature at station Eemshaven: 49.0 C
+2026-11-05 10:50:52 INFO Load test finished: 1000 sensor records generated in 1.35 seconds
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:46 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 WARN High API traffic from 172.18.0.1: 31 requests in the last 60 seconds
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 INFO GET /api/stations from 172.18.0.1
+2026-11-05 10:51:47 WARN High API traffic from 172.18.0.1: 50 requests in the last 60 seconds
+2026-11-05 10:58:34 ERROR Test exception generated (POST /test/error)
+2026-11-05 11:27:51 INFO Outage resolved for station Arnhem by user beeb
+2026-11-05 11:27:56 INFO Outage resolved for station Eemshaven by user beeb
+2026-11-05 11:28:12 INFO Load test started by user beeb: generating 1000 sensor records
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.7 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.5 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 47.5 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.0 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.5 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.2 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.0 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 45.4 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.1 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 45.4 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.4 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.6 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.1 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 45.9 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.4 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.4 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.4 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.0 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 45.3 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 45.7 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.0 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.1 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 47.4 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.8 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 45.3 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.0 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 47.3 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.0 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.2 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.2 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.4 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.5 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 45.2 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.4 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 47.5 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.9 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.4 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.7 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 47.9 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.4 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.2 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.2 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 47.2 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.2 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.5 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.5 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.8 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.6 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.0 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 45.6 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.0 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.3 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.7 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 46.5 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 47.1 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 47.4 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.3 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 48.5 C
+2026-11-05 11:28:12 WARN High temperature at station Eemshaven: 49.6 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 48.6 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 47.4 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 49.3 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 49.3 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 46.1 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 45.4 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 45.2 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 45.5 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 49.0 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 48.7 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 46.9 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 49.6 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 45.6 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 45.3 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 49.0 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 46.9 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 46.1 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 46.9 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 48.9 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 49.4 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 46.6 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 45.2 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 48.0 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 47.3 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 45.8 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 48.6 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 49.3 C
+2026-11-05 11:28:13 WARN High temperature at station Eemshaven: 49.8 C
+2026-11-05 11:28:13 INFO Load test finished: 1000 sensor records generated in 0.97 seconds
+2026-11-05 13:23:32 INFO User beeb logged out
+2026-11-05 13:24:00 WARN Invalid password for user admin from 172.18.0.1 (attempt 1)
+2026-11-05 13:24:14 WARN Login attempt for unknown user Admin from 172.18.0.1 (attempt 1)
+2026-11-05 13:24:28 WARN Login attempt for unknown user Admin from 172.18.0.1 (attempt 2)
+2026-11-05 13:24:58 INFO User admin logged in from 172.18.0.1
+2026-11-05 13:39:06 INFO User admin logged out
+2026-11-05 13:39:36 INFO User admin logged in from 172.18.0.1
+2026-11-05 13:40:54 ERROR Test exception generated (POST /test/error)
+2026-11-05 13:40:58 INFO Load test started by user admin: generating 1000 sensor records
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 50.0 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 49.1 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 47.9 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 45.2 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.3 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 45.6 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 49.5 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.9 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 47.5 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.5 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 46.9 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.8 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 46.2 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 45.1 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 47.3 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 49.8 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.2 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 49.3 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 49.2 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 46.2 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 47.7 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.5 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 49.0 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.4 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 47.3 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 45.1 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 47.2 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 47.0 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 45.1 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 47.8 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.8 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.0 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.1 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 46.4 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 47.4 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 46.0 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 45.9 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.4 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.9 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 46.2 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.7 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.6 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 46.0 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 45.4 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 45.5 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 49.0 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 50.0 C
+2026-11-05 13:40:58 WARN High temperature at station Eemshaven: 48.4 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 49.9 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 46.7 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 49.3 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 46.6 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 48.7 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 48.3 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 46.3 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 49.1 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 45.2 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 45.4 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 47.7 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 45.6 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 47.9 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 49.3 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 47.9 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 47.5 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 48.9 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 48.9 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 49.1 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 46.5 C
+2026-11-05 13:40:59 WARN High temperature at station Eemshaven: 45.5 C
+2026-11-05 13:40:59 INFO Load test finished: 1000 sensor records generated in 0.86 seconds
