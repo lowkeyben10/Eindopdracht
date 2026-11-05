@@ -1,0 +1,6 @@
+{# Meldingen (groen = gelukt, rood = fout) #}
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% for category, text in messages %}
+    <div class="message {{ category }}">{{ text }}</div>
+  {% endfor %}
+{% endwith %}

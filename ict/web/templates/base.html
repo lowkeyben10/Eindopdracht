@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{% endblock %} - GridWatch 2030</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="grid-bg">
+
+  <!-- Header met menu (zelfde op elke pagina) -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="{{ url_for('index') }}" class="logo"><div class="logo-icon">GW</div>GridWatch<span>2030</span></a>
+      <button class="menu-toggle" onclick="document.querySelector('.nav').classList.toggle('open')">&#9776;</button>
+      {% set p = request.endpoint %}
+      <nav class="nav">
+        <a href="{{ url_for('index') }}" class="{{ 'active' if p == 'index' }}">Home</a>
+        {% if session.user %}
+          <a href="{{ url_for('stations') }}" class="{{ 'active' if p == 'stations' }}">Stations</a>
+          <a href="{{ url_for('onderhoud') }}" class="{{ 'active' if p == 'onderhoud' }}">Onderhoud</a>
+          <a href="{{ url_for('storingen') }}" class="{{ 'active' if p == 'storingen' }}">Storingen</a>
+          <a href="{{ url_for('test_page') }}" class="{{ 'active' if p == 'test_page' }}">Testcentrum</a>
+          <span class="user-chip">{{ session.user }}</span>
+          <a href="{{ url_for('logout') }}" class="btn btn-outline">Uitloggen</a>
+        {% else %}
+          <a href="{{ url_for('login') }}" class="btn btn-outline">Inloggen</a>
+          <a href="{{ url_for('register') }}" class="btn btn-primary">Registreren</a>
+        {% endif %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="{% block main_class %}page{% endblock %}">
+    {% block flashes %}{% include "_flashes.html" %}{% endblock %}
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 GridWatch 2030 &middot; Demonstratieomgeving (fictief)</p>
+  </footer>
+
+</body>
+</html>

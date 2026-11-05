@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Onderhoud{% endblock %}
+{% block content %}
+<div class="page-header">
+  <h1>Onderhoudsmeldingen</h1>
+  <p class="subtitle">Gepland en afgerond onderhoud aan de stations.</p>
+</div>
+
+<div class="table-wrap">
+  <table class="table">
+    <thead><tr><th>Tijdstip</th><th>Station</th><th>Beschrijving</th></tr></thead>
+    <tbody>
+      {% for e in events %}
+      <tr>
+        <td class="mono">{{ e.tijdstip.strftime('%d-%m-%Y %H:%M') }}</td>
+        <td>{{ e.station or '-' }}</td>
+        <td>{{ e.beschrijving }}</td>
+      </tr>
+      {% else %}
+      <tr><td colspan="3">Geen onderhoudsmeldingen.</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

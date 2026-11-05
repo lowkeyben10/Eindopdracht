@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Stations{% endblock %}
+{% block content %}
+<div class="page-header">
+  <h1>Transformatorstations</h1>
+  <p class="subtitle">Overzicht van alle stations in het net. Dezelfde gegevens zijn op te vragen via
+    <a href="{{ url_for('api_stations') }}"><code>/api/stations</code></a>.</p>
+</div>
+
+<div class="table-wrap">
+  <table class="table">
+    <thead>
+      <tr><th>Station</th><th>Locatie</th><th>Status</th><th>Vermogen (MW)</th><th>Temperatuur (°C)</th><th>API</th></tr>
+    </thead>
+    <tbody>
+      {% for s in stations %}
+      <tr>
+        <td>Station {{ s.naam }}</td>
+        <td>{{ s.locatie }}</td>
+        <td><span class="status status-{{ s.status|lower }}">{{ s.status }}</span></td>
+        <td>{{ s.vermogen_mw }}</td>
+        <td>{{ s.temperatuur }}</td>
+        <td><a href="{{ url_for('api_station', station_id=s.id) }}"><code>/api/station/{{ s.id }}</code></a></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}
